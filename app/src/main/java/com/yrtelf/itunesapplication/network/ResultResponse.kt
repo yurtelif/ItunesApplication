@@ -6,5 +6,5 @@ import com.yrtelf.itunesapplication.model.Track
 
 data class ResultResponse (
     @SerializedName("resultCount") var resultCount: String,
-    @SerializedName("results") var results: List<Result>
+    @SerializedName("results") var results: MutableList<Track>
 )

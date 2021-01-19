@@ -14,6 +14,7 @@ import androidx.room.PrimaryKey
 )
 
 data class Track(val collectionName:String?,
+                 val trackId:String?,
                  val collectionPrice:String?,
                  val artworkUrl100:String?,
                  val releaseDate:String?

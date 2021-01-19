@@ -36,30 +36,6 @@ class ItunesRepository {
 
 
 
-    /*
-    public MutableLiveData<ResponseResult> searchTrack(String term, String country, String media){
-        MutableLiveData<ResponseResult> trackData = new MutableLiveData<>();
-
-        disposable.add(trackApi.searchTracks(term, country, media)
-                .subscribeOn(Schedulers.io())
-                .observeOn(AndroidSchedulers.mainThread())
-                .subscribeWith(new DisposableSingleObserver<Response<TrackResponse>>(){
-
-                    @Override
-                    public void onSuccess(Response<TrackResponse> trackResponseResponse) {
-
-                        trackData.setValue(new ResponseResult<>(trackResponseResponse.body(), trackResponseResponse.raw()));
-                    }
-
-                    @Override
-                    public void onError(Throwable e) {
-                        e.printStackTrace();
-                        trackData.setValue(null);
-                    }
-                })
-
-        );
-     */
 
 }
 

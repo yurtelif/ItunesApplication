@@ -15,7 +15,10 @@ interface ItunesApi {
     @POST("search")
     fun searchTracks(
         @Query("term") term: String?,
-    ): Single<Response<ResultResponse>>
+        @Query("media") media: String?,
+        @Query("offset") offset: Int?,
+        @Query("limit") limit: Int?
+    ): Single<ResultResponse>
 
 
 }
