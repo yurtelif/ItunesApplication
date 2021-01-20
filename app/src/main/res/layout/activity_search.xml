@@ -7,7 +7,7 @@
         <import type="android.view.View"/>
         <variable
             name="viewModel"
-            type="com.yrtelf.itunesapplication.ui.SearchViewModel" />
+            type="com.yrtelf.itunesapplication.ui.search.SearchViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

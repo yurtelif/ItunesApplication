@@ -1,6 +1,6 @@
 package com.yrtelf.itunesapplication.injection
 
-import com.yrtelf.itunesapplication.ui.SearchViewModel
+import com.yrtelf.itunesapplication.ui.search.SearchViewModel
 import dagger.Component
 import javax.inject.Singleton
 

@@ -1,4 +1,4 @@
-package com.yrtelf.itunesapplication.ui
+package com.yrtelf.itunesapplication.ui.search
 
 import androidx.lifecycle.MutableLiveData
 import com.yrtelf.itunesapplication.base.BaseViewModel

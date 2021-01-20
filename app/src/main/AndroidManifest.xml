@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Design.Light.NoActionBar">
-        <activity android:name=".ui.SearchActivity">
+        <activity android:name=".ui.detail.TrackDetailActivity"></activity>
+        <activity android:name=".ui.search.SearchActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

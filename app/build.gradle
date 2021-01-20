@@ -46,7 +46,8 @@ dependencies {
     // Support Design
     implementation "com.android.support:design:$android_support_version"
 
-    implementation "androidx.paging:paging-runtime:$paging_version" // For Kotlin use paging-runtime-ktx
+    implementation "androidx.paging:paging-runtime:$paging_version"
+    implementation 'androidx.appcompat:appcompat:1.2.0'// For Kotlin use paging-runtime-ktx
 
     // alternatively - without Android dependencies for testing
     testImplementation "androidx.paging:paging-common:$paging_version" // For Kotlin use paging-common-ktx

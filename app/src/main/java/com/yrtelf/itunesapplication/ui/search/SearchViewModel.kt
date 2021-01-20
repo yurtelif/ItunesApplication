@@ -1,13 +1,11 @@
-package com.yrtelf.itunesapplication.ui
+package com.yrtelf.itunesapplication.ui.search
 
-import android.util.Log
+import android.content.Context
 import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.Observer
 import com.yrtelf.itunesapplication.base.BaseViewModel
-import com.yrtelf.itunesapplication.model.Result
 import com.yrtelf.itunesapplication.model.ResultDao
-import com.yrtelf.itunesapplication.model.Track
 import com.yrtelf.itunesapplication.network.ItunesApi
+import com.yrtelf.itunesapplication.ui.search.SearchListAdapter
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.schedulers.Schedulers

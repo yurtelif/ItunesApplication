@@ -1,4 +1,4 @@
-package com.yrtelf.itunesapplication.ui
+package com.yrtelf.itunesapplication.ui.search
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -21,6 +21,7 @@ class SearchActivity : AppCompatActivity() {
         binding.rvResults.layoutManager = GridLayoutManager(this, 2)
         setUpTabLayout()
         binding.lifecycleOwner = this
+        viewModel.searchListAdapter.context = baseContext
         binding.viewModel = viewModel
 
     }
